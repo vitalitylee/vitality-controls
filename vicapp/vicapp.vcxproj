@@ -146,6 +146,9 @@
       <Project>{426fc723-5fc3-47b1-acca-07465fa2b189}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared-include\vitality-controls.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

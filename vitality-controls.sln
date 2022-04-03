@@ -7,6 +7,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vitality-controls", "vitali
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vicapp", "vicapp\vicapp.vcxproj", "{63B2F73C-1752-4B1B-90BA-D5C5BAB588B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{20915D16-F8DA-4185-806C-D4169D133183}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "imgs", "imgs", "{ACB50BF7-E6F7-40FF-9E44-D905A3DBF457}"
+	ProjectSection(SolutionItems) = preProject
+		docs\imgs\bczlmm.png = docs\imgs\bczlmm.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +44,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACB50BF7-E6F7-40FF-9E44-D905A3DBF457} = {20915D16-F8DA-4185-806C-D4169D133183}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B272E107-2D09-452F-8C59-EBB3D9C9997B}
