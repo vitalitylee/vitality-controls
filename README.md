@@ -3,5 +3,5 @@
 如果要获取到实时更新，欢迎微信扫描下方二维码，关注微信公众号`编程之路漫漫`，码途求知己，天涯觅一心。
 
 <center>
-    <img src="imgs/bczlmm.png" alt="">
+    <img src="docs/imgs/bczlmm.png" alt="">
 </center>
