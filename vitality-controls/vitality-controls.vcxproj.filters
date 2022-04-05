@@ -9,14 +9,26 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="源文件\controls">
+      <UniqueIdentifier>{5df54513-05b0-4db1-8192-c113df614ad3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\controls\init.c">
+      <Filter>源文件\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controls\common.c">
+      <Filter>源文件\controls</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\shared-include\vitality-controls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\common.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
